@@ -1,0 +1,52 @@
+.main {
+    border: solid 1px lightgray;
+    width: 70%;
+    margin: 10px;
+}
+
+.burgers {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.pasta {
+    padding: 20px;
+    padding-top: 0px;
+    border-top: solid 1px lightgray;
+}
+
+img.rounded {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.description {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+h3 {
+    margin-bottom: 0px;
+}
+
+.additionalText {
+    vertical-align: top;
+    color: gray;
+}
+
+mat-icon {
+    background-color: lightgray;
+    object-fit: cover;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-top: 15px;
+    float: right;
+    cursor: pointer;
+}
+
+.option {
+    margin-top: 20px;
+}

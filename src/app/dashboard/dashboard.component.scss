@@ -1,0 +1,39 @@
+.container-menu {
+    flex: 66;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 4fr 1.5fr;
+    grid-column-gap: 10px;
+}
+
+//.cartColumn {}
+
+.menuColumn {
+    border-right: 1px solid black;
+}
+
+.mat-divider.mat-divider-vertical {
+    height: 100%;
+    width: 0px!important;
+    position: inherit!important;
+    border-right-color: black;
+}
+
+.mat-divider {
+    border-color: black;
+}
+
+.menu-button {
+    background-color: lightgray;
+    margin-left: 1em;
+    margin-top: 1em;
+    border-radius: 25px;
+}
+
+.card-button {
+    background-color: lightgray;
+    margin-top: 1em;
+    border-radius: 25px;
+}
